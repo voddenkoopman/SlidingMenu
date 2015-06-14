@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/dataSpinner.xml -->
+    <eat-comment/>
+    <string-array name="kat">
+        <item>Dressurunterricht</item>
+        <item>Einzelunterricht</item>
+        <item>Springuntericht</item>
+    </string-array>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    <string-array name="nav_drawer_items">
+    <item>Tickets</item>
+    <item>Reservierungen</item>
+    <item>Termine</item>
+    <item>Kontoauszug</item>
+    <item>News</item>
+    <item>Verwaltung</item>
+    </string-array>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/dataSpinner.xml -->
+    <eat-comment/>
+    <string-array name="plaetze">
+        <item>Außenplatz</item>
+        <item>Halle</item>
+        <item>Dressurviereck</item>
+        <item>Springplatz</item>
+    </string-array>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_main">#428bca</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="lbl_name">#333333</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_check_updates">Bezahlen</string>
+    <string name="action_location_found">Neue Buchungen</string>
+    <string name="action_profile">Profil</string>
+    <string name="action_refresh">Tickets</string>
+    <string name="action_search">Suche</string>
+    <string name="action_settings">Kartenleser</string>
+    <string name="action_twitter">Twitter</string>
+    <string name="activity_location_found">Location Found</string>
+    <string name="app_name">Buchungssystem</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings_login.xml -->
+    <eat-comment/>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_register">REGISTER</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="cancel">CANCEL</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="explanation">NFC Demo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">RCH</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings_login.xml -->
+    <eat-comment/>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_telefon">Telefonnr: </string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="info_release">Wird mit den nächten Release Aktiv !!</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings_login.xml -->
+    <eat-comment/>
+    <string name="name">Fullname</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ok">OK</string>
+    <string name="search_hint">Search color..</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_neue_buchungen">NeueBuchungen</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_start_nfc">StartNfcActivity</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_wallet">WalletActivity</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/strings_login.xml -->
+    <eat-comment/>
+    <string name="welcome">Welcome</string>
+    <!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

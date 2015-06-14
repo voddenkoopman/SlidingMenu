@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fa6a6a" >
+    
+    <!--TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Meine Reservierungen"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"/-->
+
+    <WebView android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout><!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/layout/fragment_cat_4.xml -->

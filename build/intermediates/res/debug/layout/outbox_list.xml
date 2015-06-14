@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#00AAFF"
+    android:weightSum="1">
+
+
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="284dp"
+        android:layout_weight="0.83" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/textView"
+                android:layout_column="1" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtName"
+                android:layout_column="8" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BuchungsNummer:"
+                android:id="@+id/textView7"
+                android:layout_column="1" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtEmail"
+                android:layout_column="8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scanne Karte"
+            android:id="@+id/button"
+            android:onClick="scanne_code" />
+
+
+    </LinearLayout>
+
+    <!--include layout="@layout/wallet_footer_layout" /-->
+</LinearLayout>
+
+
+
+<!-- From: file:/C:/DATA/Projekte/Buchungssystem/Android/SlidingMenu/app/src/main/res/layout/outbox_list.xml -->

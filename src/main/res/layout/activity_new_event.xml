@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitte Platz auswählen:"
+        android:id="@+id/textView3"
+        android:layout_weight="0.04"
+        android:visibility="visible" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_plaetze"
+        android:entries="@array/plaetze" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitte Kategoie auswählen:"
+        android:id="@+id/textView2"
+        android:layout_weight="0.05"
+        android:visibility="visible" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_kat"
+        android:spinnerMode="dropdown"
+        android:entries="@array/kat" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_weight="0.28">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tag: "
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/eTtelefonnr"
+            android:layout_toStartOf="@+id/eTtelefonnr" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/eTTag"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Start Uhrzeit: "
+            android:id="@+id/textView5"
+            android:layout_alignBottom="@+id/eTStartTime"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/eTStartTime"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/eTEndeTime"
+            android:layout_alignStart="@+id/eTEndeTime" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/eTEndeTime"
+            android:layout_below="@+id/eTStartTime"
+            android:layout_alignLeft="@+id/eTTag"
+            android:layout_alignStart="@+id/eTTag"
+            android:layout_marginTop="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ende Uhrzeit: "
+            android:id="@+id/textView6"
+            android:layout_alignBottom="@+id/eTEndeTime"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>

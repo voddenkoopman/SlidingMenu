@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buchungssystem</string>
+    <string name="action_settings">Kartenleser</string>
+    <string name="hello_world">RCH</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string name="explanation">NFC Demo</string>
+    
+    <!-- Nav Drawer Menu Items
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array> -->
+
+    <string-array name="nav_drawer_items">
+    <item >Tickets</item>
+    <item >Reservierungen</item>
+    <item >Termine</item>
+    <item >Kontoauszug</item>
+    <item >News</item >
+    <item >Verwaltung</item >
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_wallet">WalletActivity</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+
+    <!-- Activity titles -->
+    <string name="activity_location_found">Location Found</string>
+
+    <!-- Action Bar action items -->
+    <string name="action_search">Suche</string>
+    <string name="action_location_found">Neue Buchungen</string>
+    <string name="action_refresh">Tickets</string>
+    <string name="action_profile">Profil</string>
+    <string name="action_twitter">Twitter</string>
+    <string name="action_check_updates">Bezahlen</string>
+
+    <!-- Search  -->
+    <string name="search_hint">Search color..</string>
+    <string name="title_activity_neue_buchungen">NeueBuchungen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_start_nfc">StartNfcActivity</string>
+
+    <string name="info_release">Wird mit den nächten Release Aktiv !!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

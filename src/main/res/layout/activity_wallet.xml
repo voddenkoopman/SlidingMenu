@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="info.androidhive.slidingmenu.WalletActivity">
+
+    <ListView android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/btnScan"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Buchungsinformationen"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvTicketID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ticket ID"
+        android:id="@+id/tvTicketID"
+        android:visibility="visible"
+        android:layout_above="@android:id/list"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event ID"
+        android:id="@+id/tvEventID"
+        android:visibility="visible"
+        android:layout_below="@+id/tvEventDate"
+        android:layout_alignRight="@+id/tvTicketID"
+        android:layout_alignEnd="@+id/tvTicketID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event_DATE"
+        android:id="@+id/tvEventDate"
+        android:layout_below="@+id/tvEventTitel"
+        android:layout_alignRight="@+id/tvEventTitel"
+        android:layout_alignEnd="@+id/tvEventTitel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ticket_TITEL"
+        android:id="@+id/tvTicketTitel"
+        android:layout_alignTop="@+id/tvTicketID"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event_START_TIME"
+        android:id="@+id/tvEventStartTime"
+        android:layout_alignTop="@+id/tvEventDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event_TITEL"
+        android:id="@+id/tvEventTitel"
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/tvEventID"
+        android:layout_alignStart="@+id/tvEventID"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:id="@+id/imgOK"
+            android:src="@drawable/success"
+            android:layout_weight="0.15" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:id="@+id/imgCancel"
+            android:src="@drawable/storno"
+            android:layout_weight="0.18" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            android:id="@+id/imgBUY"
+            android:src="@drawable/buy_now" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:id="@+id/imgQR"
+            android:src="@drawable/user_158" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scannen"
+        android:id="@+id/btnScan"
+        android:visibility="invisible"
+        android:layout_weight="0.25"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

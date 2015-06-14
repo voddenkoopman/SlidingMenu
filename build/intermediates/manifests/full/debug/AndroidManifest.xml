@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.slidingmenu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name="info.androidhive.slidingmenu.library.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/egeld"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.androidhive.slidingmenu.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.MainActivity" />
+        <activity
+            android:name="info.androidhive.slidingmenu.WalletActivity"
+            android:label="@string/title_activity_wallet" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.NewProductActivity" />
+        <activity android:name="info.androidhive.slidingmenu.EditProductActivity" />
+        <activity android:name="info.androidhive.slidingmenu.KartenLeserActivity" />
+        <activity android:name="info.androidhive.slidingmenu.TermineActivity" />
+        <activity android:name="info.androidhive.slidingmenu.Login.MainLoginActivity" />
+        <activity android:name="info.androidhive.slidingmenu.Login.RegisterActivity" />
+        <activity android:name="info.androidhive.slidingmenu.Login.LoginActivity" />
+        <activity
+            android:name="info.androidhive.slidingmenu.StartNfcActivity"
+            android:label="@string/title_activity_start_nfc" >
+        </activity>
+    </application>
+
+</manifest>

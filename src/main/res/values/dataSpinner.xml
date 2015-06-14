@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kat">
+        <item>Dressurunterricht</item>
+        <item>Einzelunterricht</item>
+        <item>Springuntericht</item>
+    </string-array>
+
+
+    <string-array name="plaetze">
+        <item>Außenplatz</item>
+        <item>Halle</item>
+        <item>Dressurviereck</item>
+        <item>Springplatz</item>
+    </string-array>
+
+</resources>
